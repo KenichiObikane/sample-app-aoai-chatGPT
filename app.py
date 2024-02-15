@@ -31,7 +31,7 @@ UI_CHAT_LOGO = os.environ.get("UI_CHAT_LOGO")
 UI_CHAT_TITLE = os.environ.get("UI_CHAT_TITLE") or "Start chatting"
 #UI_CHAT_DESCRIPTION = os.environ.get("UI_CHAT_DESCRIPTION") or "This chatbot is configured to answer your questions"
 
-UI_CHAT_DESCRIPTION = (os.environ.get("UI_CHAT_DESCRIPTION") or "") + '\n' + '(' + (os.environ.get("AZURE_SEARCH_INDEX") or "") + ')'
+UI_CHAT_DESCRIPTION = (os.environ.get("UI_CHAT_DESCRIPTION") or "") + '\n' + '　(' + (os.environ.get("AZURE_SEARCH_INDEX") or "") + ')'
 
 
 UI_FAVICON = os.environ.get("UI_FAVICON") or "/favicon.ico"
